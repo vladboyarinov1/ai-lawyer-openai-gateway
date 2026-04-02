@@ -3,3 +3,4 @@ builder = "DOCKERFILE"
 
 [deploy]
 startCommand = "node server.js"
+healthcheckPath = "/healthz"
